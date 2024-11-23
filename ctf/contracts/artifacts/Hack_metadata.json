@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CTF/contracts/ReEntracyInt.sol": "Hack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CTF/contracts/ReEntracyInt.sol": {
+			"keccak256": "0x14757e0539581cf1b990f726f306456802aeff3798cfa7afbe9257e2ee51794f",
+			"urls": [
+				"bzz-raw://d1c3607a536a8dcb65108bd0da97cf5ad9572e0cce6c01e3a29485cd00db63c0",
+				"dweb:/ipfs/QmcBoYjMz9gGHSmJchFP39rdTCCZ51Y9UqSbzkZyoznaBq"
+			]
+		}
+	},
+	"version": 1
+}
